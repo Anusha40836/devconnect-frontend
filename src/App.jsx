@@ -18,6 +18,8 @@ function App() {
             </PrivateRoute>
           }
         />
+        {/* Optional: Add 404 fallback */}
+        <Route path="*" element={<h2>Page Not Found</h2>} />
       </Routes>
     </div>
   );
