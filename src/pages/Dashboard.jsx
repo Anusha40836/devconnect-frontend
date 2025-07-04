@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 
 function Dashboard() {
   const bgImageUrl =
-    "https://images.pexels.com/photos/32829494/pexels-photo-32829494.jpeg";
+    "https://images.pexels.com/photos/6476260/pexels-photo-6476260.jpeg";
 
   const navigate = useNavigate();
   const [projects, setProjects] = useState([]);

@@ -4,7 +4,7 @@ import { useNavigate, Link } from "react-router-dom";
 
 export default function Register() {
   const bgImageUrl =
-    "https://images.pexels.com/photos/3243/pen-calendar-to-do-checklist.jpg";
+    "https://images.pexels.com/photos/1181263/pexels-photo-1181263.jpeg";
 
   const [form, setForm] = useState({ name: "", email: "", password: "" });
   const navigate = useNavigate();
